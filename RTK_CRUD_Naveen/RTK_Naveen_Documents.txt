@@ -1,0 +1,24 @@
+Commands to Install
+
+1. bootstrap (npm install bootstrap)
+2. axios (npm install axios)
+3. react-router-dom (npm i react-router-dom)
+4. react-redux
+5. @reduxjs/toolkit
+6. @fortawesome/fontawesome-free
+
+npm install bootstrap @fortawesome/fontawesome-free axios react-router-dom react-redux @reduxjs/toolkit
+
+Import Commands for Bootstrap and fontawesome, We should paste those commands in index.js
+
+import "../node_modules/@fortawesome/fontawesome-free/css/all.css"
+import "../node_modules/bootstrap/dist/js/bootstrap.bundle"
+import "../node_modules/bootstrap/dist/css/bootstrap.css"
+ 
+
+Folder Structures:
+
+src :
+    1. components
+    2. redux
+    3. services    
