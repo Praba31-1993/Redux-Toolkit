@@ -1,0 +1,64 @@
+Redux Toolkit Steps:
+   
+   Step1 - Step3
+
+1. create a Store 
+2. configure the store with App
+-------------------------------------------------------------------------------------------------------
+
+3. Create Slices (Action + Reducers)
+4. call actions from components
+
+
+
+Step 1 :  create store.js. In that we connect our rootReducer or Combine Reducer. In simple Words 
+	  we need to connect reducer to store.
+
+Step 2:  Create rootReducer. In that rootReducers we combine all functions
+
+Step 3: Then we connect our store to index.js 
+		
+	     *import {Provider} from 'react-redux'
+	     *import store from './redux/store' 
+	
+<BrowserRouter>
+  <Provider store={store}>
+    <App/>
+    </Provider>
+  </BrowserRouter>,
+  
+-------------------------------------------------------------------------------------------------------
+Step 4: We create our Slice. In Slice (Action and Reducer) is available.
+Step 5: This Slice will connect to rootReducer
+	
+
+
+
+
+
+
+
+
+Notes :
+
+1. useSelector :- It is a function.
+		  Current State as an argument.
+		  Returns whatever data you want from it.
+
+	Rules for Use Selector
+
+1. Parameter is required :  State
+2. return the data       : state.value
+
+2. useDispatch :- It displays your Actions or functions 
+
+
+
+For only Local State Management:
+	1. UseSlice 
+
+For accessing Web data in State Management:
+	1. Use Async Thunk
+				
+
+			 
