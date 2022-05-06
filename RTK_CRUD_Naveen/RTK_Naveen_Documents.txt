@@ -22,3 +22,18 @@ src :
     1. components
     2. redux
     3. services    
+
+
+
+Redux Toolkit Steps:
+
+1. create a Store
+2. configure the store with App
+3. Create Slices
+4. call actions from components
+
+
+Inside Redux folder, we need to create 2 files:
+
+1. store.js
+2. rootReducer.js

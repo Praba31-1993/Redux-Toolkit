@@ -6,13 +6,15 @@ import UserList from "./components/UserList";
 import Counter from "./components/Counter";
 import Home from "./components/Home";
 import NoPage from "./components/NoPage";
+import CounterRedux from "./components/CounterRedux";
+
 function App() {
   return (
     <div>
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/counter" element={<Counter />} />
+        <Route path="/counter" element={<CounterRedux />} />
         <Route path="/employees" element={<Employees />} />
         <Route path="/userList" element={<UserList />} />
         <Route path="*" element={<NoPage />} />
