@@ -1,3 +1,0 @@
-1. Redux Toolkit Crud (Naveen Kumar)
-2. Redux Toolkit Crud (code with Vishal)
-3. Redux Toolkit API Fetching Json Placeholder (code with Vishal)
